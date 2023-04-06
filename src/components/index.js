@@ -1,3 +1,3 @@
 import TextInput from "./TextInput";
-
-export {TextInput}
+import Comment from "./Comment";
+export {TextInput, Comment}

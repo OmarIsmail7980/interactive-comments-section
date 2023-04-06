@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import data from "../data.json";
+import user from "../images/avatars/image-juliusomo.png";
 
 const TextInput = () => {
   const [text, setText] = useState("");
@@ -23,8 +24,8 @@ const TextInput = () => {
     bg-white rounded-lg py-5 px-5 "
     >
       <div className="relative lg:flex">
-        <div className="rounded-full lg:mr-4 absolute lg:static left-0 bottom-0 h-1/3 lg:h-1/2">
-          <img className="" src={`../images/icon-minus.svg`} alt="user" />
+        <div className="rounded-full lg:mr-4 absolute lg:static left-0 bottom-0 h-1/3 lg:h-1/2 flex items-center">
+          <img className="w-[45px] lg:w-[60px]" src={user} alt="user" />
         </div>
 
         <textarea
